@@ -1,2 +1,0 @@
-# SimpleBanking
-Simple Banking Website

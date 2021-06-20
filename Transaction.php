@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Transaction.css">
+    <link rel="stylesheet" href="TranStyle.css">
     <script src="Transaction.js"></script>
     <title>Bank|TSF</title>
 </head>
@@ -13,9 +13,9 @@
 <body>
     <header>
         <nav class="navbar">
-            <a href="#" class="logo">Bank Of TSF</a>
+            <a href="index.html" class="logo">Bank Of TSF</a>
             <ul class="navbaritems">
-                <li><a href="Index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="Customers.php">Customers</a></li>
                 <li><a href="Transaction.php">Transaction</a></li>
                 <li><a href="TranHistory.php">Transaction History</a></li>

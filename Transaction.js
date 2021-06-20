@@ -85,11 +85,3 @@ function updateBalance() {
     }
 
 }
-
-// function resetElements() {
-//     var elements = ["Contact", "Email", "Balance", "TContact", "TEmail", "TBalance"];
-//     for (i = 0; i < elements.length; i++) {
-//         document.getElementById(elements[i]).innerHTML = " ";
-//         return;
-//     }
-// }

@@ -28,12 +28,12 @@
         $sql = "update allcustomer set balance = balance - ".$bal." where email = '".$s."'";
         $result = $con->query($sql);
         $date = date("Y-m-d h:i:sa");
-        $sql = "insert into tranhistory values('".$s."','".$r."',".$bal.",'".$date."')";
+        $sql = "insert into transaction values('".$s."','".$r."',".$bal.",'".$date."', NULL)";
         $result = $con->query($sql);
         echo "Transaction successful!!";
     }
     else{
-        echo "Transaction Failed!!";
+        echo "Insufficient Balance!!";
     }
 
 
