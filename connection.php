@@ -23,6 +23,4 @@ $i = 0;
                     
     $x=0;
     echo json_encode($datafromdb);
-                    
-
 ?>
