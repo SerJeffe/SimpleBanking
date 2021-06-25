@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Montaga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+.logo{
+    margin-right: auto;
+    padding: 1.5% 0;
+    padding-left: 2%;
+    text-decoration: none;
+    font-family: 'Sriracha', cursive;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: rgb(31, 20, 11);
+}
+.navbar ul{
+    display: flex;
+    padding-right: 20px;
+}
+.navbar li{
+    list-style: none;
+    padding-left: 30px;
+}
+.navbar li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    transition: all 0.3s ease 0s;
+}
+.navbaritems li a:hover{
+    color: rgb(77, 77, 77);
+    border: 2px solid rgb(105, 105, 105);
+    padding: 10px 10px;
+    border-radius: 6px;
+}
+.navbarbtn{
+    margin-left: 30px;
+    border:none;
+    text-align: center;
+    padding: 3px 6px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(211, 168, 77, 0.959);
+    color:white;
+    font-family: 'Baloo Tammudu 2', cursive;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+.navbarbtn:hover{
+    opacity: 3;
+    color: rgba(211, 168, 77, 0.959);
+    background-color: white;
+    border: 2px solid rgba(211, 168, 77, 0.959);
+}
+
+.dropDown{
+    display: none;
+    position: absolute;
+    height: 30px;
+    top: 0;
+    right: 0;
+    margin-top: 14px;
+    margin-right: 12px;
+    border:none;
+    text-align: center;
+    padding:15px 15px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(211, 168, 77, 0.959);
+    color:white;
+}
+.gg-menu {
+    transform: scale(var(--ggs,1))
+}
+.gg-menu,
+.gg-menu::after,
+.gg-menu::before {
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 3px;
+    background: currentColor
+}
+.gg-menu::after,
+.gg-menu::before {
+    content: "";
+    position: absolute;
+    top: -6px
+}
+.gg-menu::after {
+    top: 6px
+}
+
+table{
+    font-family: 'Baloo Tammudu 2', cursive;
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.table{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 0px 3.5%;
+    
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:hover {background-color: #d8d1d1;}
+table tr:nth-child(even){background-color: #f2f2f2;}
+table tr:nth-child(even):hover{background-color: #d8d1d1;}
+.tabledata{
+    padding: 5% 5%;
+    width: 100%;
+    height: 100%;
+}
+
+
+footer{
+    background-color: rgb(36, 31, 31);
+    height: 70px;
+}
+
+@media (max-width: 1035px){
+    .navbar{
+        border-bottom: 2p solid black;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar ul{
+        flex-direction: column;
+        display: none;
+    }
+    .navbar li{
+        padding-left: 0;
+        padding-top: 5%;
+    }
+    .navbarbtn{
+        margin-left: 0;
+        margin-top: 7%;
+    }
+    .dropDown{
+        display: flex;
+    }
+    .logo{
+        font-size: 26px;
+    }
+    table{
+        font-size: 14px;
+    }
+    /* after button is clicked */
+
+    .navbaritems.responsive ul{
+        display: flex;
+    }
+    .navbaritems.responsive li{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .navbaritems.responsive a{
+        font-size: 12px;
+    }
+    .navbaritems.responsive button{
+        padding-top: 8px;
+        font-size: 12px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .logo.responsive{
+        width: 100%;
+        border-bottom: 2px solid black;
+    }
+}

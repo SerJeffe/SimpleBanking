@@ -5,23 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="indexstyle.css">
-    <title>Bank|TSF</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>TSF|Bank</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <a href="index.html" class="logo">Bank Of TSF</a>
-            <ul class="navbaritems">
+    <nav class="navbar">
+        <a href="index.html" class="logo" id="logoid">Bank Of TSF</a>
+        <div class="navbaritems" id="navbaritemsid">
+            <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Customers.php">Customers</a></li>
                 <li><a href="Transaction.php">Transaction</a></li>
                 <li><a href="TranHistory.php">Transaction History</a></li>
+                <button class="navbarbtn">Contact us</button>
             </ul>
-            <button class="navbarbtn">Contact us</button>
-        </nav>
-    </header>
+            <button class="dropDown" id="dropDownB" onclick="openDrop()">
+                <i class="gg-menu"></i>
+            </button>
+        </div>
+    </nav>
+
     <div class="bodyimage">
         <div class="onimgtext">
             <div class="onimgtext1">
@@ -31,8 +36,9 @@
                 Give your goals some playing time. Bank of TSF will help you go from wondering about possibilities
                 and start talking possible. When you’re ready, we can help.
             </div>
+            <button class="onimgbtn">SCHEDULE YOUR FINANCE ADVISOR</button>
         </div>
-        <button class="onimgbtn">SCHEDULE YOUR FINANCE ADVISOR</button>
+
         <div class="img">
         </div>
     </div>
@@ -59,6 +65,7 @@
                 there, We have loan programs and options for you!</div>
         </div>
     </div>
+
     <div class="placeholder">
         <div id="placeholder1">
             <img src="https://images.unsplash.com/photo-1609220136736-443140cffec6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
@@ -86,6 +93,7 @@
     <footer>
 
     </footer>
+
 </body>
 
 </html>

@@ -5,24 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="TranStyle.css">
+    <link rel="stylesheet" href="Transaction.css">
     <script src="Transaction.js"></script>
+    <script src="index.js"></script>
     <title>Bank|TSF</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <a href="index.html" class="logo">Bank Of TSF</a>
-            <ul class="navbaritems">
+<nav class="navbar">
+        <a href="index.html" class="logo" id="logoid">Bank Of TSF</a>
+        <div class="navbaritems" id="navbaritemsid">
+            <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Customers.php">Customers</a></li>
                 <li><a href="Transaction.php">Transaction</a></li>
                 <li><a href="TranHistory.php">Transaction History</a></li>
+                <button class="navbarbtn">Contact us</button>
             </ul>
-            <button class="navbarbtn">Contact us</button>
-        </nav>
-    </header>
+            <button class="dropDown" id="dropDownB" onclick="openDrop()">
+                <i class="gg-menu"></i>
+            </button>
+        </div>
+    </nav>
 
 
 
@@ -127,7 +131,7 @@
 
     
 
-    <footer>
+    <footer class="footer">
 
     </footer>
 </body>
